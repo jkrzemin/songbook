@@ -19,7 +19,7 @@ jobs:
 
       # Step 4: Upload the generated book.pdf as an artifact
       - name: Upload book.pdf as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: book-pdf
           path: book.pdf
